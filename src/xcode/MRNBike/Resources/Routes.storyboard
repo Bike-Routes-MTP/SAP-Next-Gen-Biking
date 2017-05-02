@@ -60,6 +60,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="NMt-Xa-10D" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController"/>
                     <navigationItem key="navigationItem" title="Marks &amp; Routes" id="xDB-N6-Rkq">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="OVi-3b-s3k">
                             <connections>
@@ -67,6 +68,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="myRoutes" destination="PZD-gx-7om" id="O6z-5p-SHc"/>
                         <outlet property="routeInformation" destination="Edq-7N-qUc" id="8fO-g4-nHc"/>

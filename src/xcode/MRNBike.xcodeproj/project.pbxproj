@@ -39,6 +39,8 @@
 		37B601FB1EB0B68000870844 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37B601E91EB0B68000870844 /* Montserrat-Thin.otf */; };
 		37B6D7D81EB0C1B700CAB733 /* MarksRoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B6D7D71EB0C1B700CAB733 /* MarksRoutesViewController.swift */; };
 		491EC51B1DE441430077BF82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EC51A1DE441430077BF82 /* MapKit.framework */; };
+		85B43959C6E6DD1ACBDD9570 /* Pods_MRNBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11352D1F4DB05C2ED97A1E2D /* Pods_MRNBike.framework */; };
+		D21004841EB7D412006B8269 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21004831EB7D412006B8269 /* DashboardViewController.swift */; };
 		D25F5ACC1EAFF59A00850388 /* LandingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25F5ACB1EAFF59A00850388 /* LandingScreen.storyboard */; };
 		D25F5ACE1EAFF5C900850388 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25F5ACD1EAFF5C900850388 /* Home.storyboard */; };
 		D25F5AD01EAFF6A000850388 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25F5ACF1EAFF6A000850388 /* Statistics.storyboard */; };
@@ -72,6 +74,7 @@
 		0137F1651EA2778100FCA949 /* ConfigList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ConfigList.plist; sourceTree = "<group>"; };
 		0137F1661EA2778100FCA949 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0137F1671EA2778100FCA949 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		11352D1F4DB05C2ED97A1E2D /* Pods_MRNBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRNBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B601E11EB0B68000870844 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
 		37B601E21EB0B68000870844 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
 		37B601E31EB0B68000870844 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
@@ -86,6 +89,9 @@
 		491EC51A1DE441430077BF82 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		493173EE1DED7CB0007D4A74 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		493173F51DEDA5D2007D4A74 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		5B272843DB425D43BA37A972 /* Pods-MRNBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRNBike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRNBike/Pods-MRNBike.debug.xcconfig"; sourceTree = "<group>"; };
+		82EF31F6FDD91C07020FD95A /* Pods-MRNBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRNBike.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRNBike/Pods-MRNBike.release.xcconfig"; sourceTree = "<group>"; };
+		D21004831EB7D412006B8269 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		D25F5ACB1EAFF59A00850388 /* LandingScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingScreen.storyboard; sourceTree = "<group>"; };
 		D25F5ACD1EAFF5C900850388 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D25F5ACF1EAFF6A000850388 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491EC51B1DE441430077BF82 /* MapKit.framework in Frameworks */,
+				85B43959C6E6DD1ACBDD9570 /* Pods_MRNBike.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +128,7 @@
 				0137F1641EA2778100FCA949 /* SupportingFiles */,
 				0137F1671EA2778100FCA949 /* ThirdViewController.swift */,
 				37B6D7D71EB0C1B700CAB733 /* MarksRoutesViewController.swift */,
+				D21004831EB7D412006B8269 /* DashboardViewController.swift */,
 			);
 			path = MRNBike;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 				0137F14A1EA2778100FCA949 /* MRNBike */,
 				491EC5031DE421940077BF82 /* Products */,
 				491EC5191DE441430077BF82 /* Frameworks */,
+				58A76987580130AD445D7C7E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,8 +218,18 @@
 				493173F51DEDA5D2007D4A74 /* libsqlite3.0.tbd */,
 				493173EE1DED7CB0007D4A74 /* libsqlite3.tbd */,
 				491EC51A1DE441430077BF82 /* MapKit.framework */,
+				11352D1F4DB05C2ED97A1E2D /* Pods_MRNBike.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58A76987580130AD445D7C7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B272843DB425D43BA37A972 /* Pods-MRNBike.debug.xcconfig */,
+				82EF31F6FDD91C07020FD95A /* Pods-MRNBike.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 491EC5161DE421950077BF82 /* Build configuration list for PBXNativeTarget "MRNBike" */;
 			buildPhases = (
+				8C9709948894130F6C1CE5AA /* [CP] Check Pods Manifest.lock */,
 				491EC4FE1DE421940077BF82 /* Sources */,
 				491EC4FF1DE421940077BF82 /* Frameworks */,
 				491EC5001DE421940077BF82 /* Resources */,
+				2C05A698BF7D20E279B68B42 /* [CP] Embed Pods Frameworks */,
+				220DEC019AFE70AC2DFFE3F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,12 +332,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		220DEC019AFE70AC2DFFE3F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRNBike/Pods-MRNBike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C05A698BF7D20E279B68B42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRNBike/Pods-MRNBike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9709948894130F6C1CE5AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		491EC4FE1DE421940077BF82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0137F16C1EA2778100FCA949 /* Configurator.swift in Sources */,
+				D21004841EB7D412006B8269 /* DashboardViewController.swift in Sources */,
 				01279A2F1EA4D9DF000505AA /* RouteKeys.swift in Sources */,
 				0137F16B1EA2778100FCA949 /* LoginViewController.swift in Sources */,
 				0137F1701EA2778100FCA949 /* TrackPoint.swift in Sources */,
@@ -475,6 +546,7 @@
 		};
 		491EC5171DE421950077BF82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B272843DB425D43BA37A972 /* Pods-MRNBike.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -493,6 +565,7 @@
 		};
 		491EC5181DE421950077BF82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EF31F6FDD91C07020FD95A /* Pods-MRNBike.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
