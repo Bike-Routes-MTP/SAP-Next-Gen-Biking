@@ -290,10 +290,10 @@
             </objects>
             <point key="canvasLocation" x="-783" y="689"/>
         </scene>
-        <!--View Controller-->
+        <!--Dashboard View Controller-->
         <scene sceneID="PbG-vu-i32">
             <objects>
-                <viewController id="w1u-Da-o7s" sceneMemberID="viewController">
+                <viewController id="w1u-Da-o7s" customClass="DashboardViewController" customModule="MRNBike" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yAX-wU-PId"/>
                         <viewControllerLayoutGuide type="bottom" id="Nk3-uF-fSw"/>
@@ -340,6 +340,6 @@
         <image name="Weather" width="322" height="177"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aO7-Lv-HJi"/>
+        <segue reference="Osa-cc-5Rz"/>
     </inferredMetricsTieBreakers>
 </document>

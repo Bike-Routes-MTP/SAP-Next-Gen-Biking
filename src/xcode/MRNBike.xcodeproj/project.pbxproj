@@ -41,6 +41,7 @@
 		491EC51B1DE441430077BF82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491EC51A1DE441430077BF82 /* MapKit.framework */; };
 		85B43959C6E6DD1ACBDD9570 /* Pods_MRNBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11352D1F4DB05C2ED97A1E2D /* Pods_MRNBike.framework */; };
 		D21004841EB7D412006B8269 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21004831EB7D412006B8269 /* DashboardViewController.swift */; };
+		D21004861EBA08B3006B8269 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21004851EBA08B3006B8269 /* HomeViewController.swift */; };
 		D25F5ACC1EAFF59A00850388 /* LandingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25F5ACB1EAFF59A00850388 /* LandingScreen.storyboard */; };
 		D25F5ACE1EAFF5C900850388 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25F5ACD1EAFF5C900850388 /* Home.storyboard */; };
 		D25F5AD01EAFF6A000850388 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25F5ACF1EAFF6A000850388 /* Statistics.storyboard */; };
@@ -92,6 +93,7 @@
 		5B272843DB425D43BA37A972 /* Pods-MRNBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRNBike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRNBike/Pods-MRNBike.debug.xcconfig"; sourceTree = "<group>"; };
 		82EF31F6FDD91C07020FD95A /* Pods-MRNBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRNBike.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRNBike/Pods-MRNBike.release.xcconfig"; sourceTree = "<group>"; };
 		D21004831EB7D412006B8269 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D21004851EBA08B3006B8269 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Resources/HomeViewController.swift; sourceTree = "<group>"; };
 		D25F5ACB1EAFF59A00850388 /* LandingScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingScreen.storyboard; sourceTree = "<group>"; };
 		D25F5ACD1EAFF5C900850388 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D25F5ACF1EAFF6A000850388 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				0137F1641EA2778100FCA949 /* SupportingFiles */,
 				0137F1671EA2778100FCA949 /* ThirdViewController.swift */,
 				37B6D7D71EB0C1B700CAB733 /* MarksRoutesViewController.swift */,
+				D21004851EBA08B3006B8269 /* HomeViewController.swift */,
 				D21004831EB7D412006B8269 /* DashboardViewController.swift */,
 			);
 			path = MRNBike;
@@ -390,6 +393,7 @@
 				01279A2F1EA4D9DF000505AA /* RouteKeys.swift in Sources */,
 				0137F16B1EA2778100FCA949 /* LoginViewController.swift in Sources */,
 				0137F1701EA2778100FCA949 /* TrackPoint.swift in Sources */,
+				D21004861EBA08B3006B8269 /* HomeViewController.swift in Sources */,
 				0137F16E1EA2778100FCA949 /* LocationManager.swift in Sources */,
 				0137F16F1EA2778100FCA949 /* StorageHelper.swift in Sources */,
 				0137F1711EA2778100FCA949 /* User.swift in Sources */,
