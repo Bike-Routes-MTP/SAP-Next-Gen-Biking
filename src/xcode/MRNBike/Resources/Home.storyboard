@@ -134,11 +134,12 @@
         <scene sceneID="3c7-qg-Yzi">
             <objects>
                 <tabBarController storyboardIdentifier="Home" id="GOE-25-Xjg" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
-                    <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5nz-bh-bwT">
+                    <tabBar key="tabBar" clipsSubviews="YES" contentMode="scaleToFill" itemPositioning="centered" id="5nz-bh-bwT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
                         <segue destination="LIY-8t-FG2" kind="relationship" relationship="viewControllers" id="oFY-Lc-ZiO"/>
@@ -175,6 +176,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Statistics1" id="SIZ-U0-M5N" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="yOffSet">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="animation" destination="04h-vf-YbN" id="Rh6-GP-MQr"/>
                         </connections>
