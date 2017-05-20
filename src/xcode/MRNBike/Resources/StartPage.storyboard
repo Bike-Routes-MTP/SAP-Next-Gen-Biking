@@ -540,7 +540,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REPEAT PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXO-Fs-rfD">
-                                                    <rect key="frame" x="24" y="13.5" width="160" height="39.5"/>
+                                                    <rect key="frame" x="24" y="13" width="160" height="39.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="160" id="Zu6-ms-7uF"/>
                                                     </constraints>
@@ -581,7 +581,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARE ACTIVITY INFORMATION" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfR-XC-mqv">
-                                                    <rect key="frame" x="24" y="13.5" width="250" height="39.5"/>
+                                                    <rect key="frame" x="24" y="13" width="250" height="39.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="250" id="c2V-J3-qSc"/>
                                                     </constraints>
@@ -618,7 +618,7 @@ INFORMATION</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeu-hi-XRm">
-                                                    <rect key="frame" x="161" y="19" width="65" height="17"/>
+                                                    <rect key="frame" x="161" y="19" width="56" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -633,7 +633,7 @@ INFORMATION</string>
                                                     </connections>
                                                 </slider>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Wheel size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnd-fn-c5Y">
-                                                    <rect key="frame" x="161" y="88" width="88" height="17"/>
+                                                    <rect key="frame" x="161" y="88" width="79" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -648,15 +648,15 @@ INFORMATION</string>
                                                     </connections>
                                                 </slider>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" fixedFrame="YES" text="27 Inches" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHC-Cq-gSy">
-                                                    <rect key="frame" x="239" y="89" width="55" height="17"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                    <rect key="frame" x="235" y="89" width="59" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
                                                     <color key="textColor" red="0.24040332440000001" green="0.69562929870000001" blue="0.31570515040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" fixedFrame="YES" text="90 kg" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWT-SX-wRw">
-                                                    <rect key="frame" x="239" y="19" width="56" height="17"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                    <rect key="frame" x="225" y="19" width="70" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
                                                     <color key="textColor" red="0.24040332440000001" green="0.69562929870000001" blue="0.31570515040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
