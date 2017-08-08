@@ -24,6 +24,7 @@
 		01FBE20A1EC3C603008903C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FBE2091EC3C603008903C1 /* Assets.xcassets */; };
 		01FBE20E1EC3CC18008903C1 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FBE20D1EC3CC18008903C1 /* TrackingViewController.swift */; };
 		0A259E621EBFBE950050AC0F /* Tracking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A259E611EBFBE950050AC0F /* Tracking.storyboard */; };
+		107695BA1F3A114E005CF452 /* File_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107695B91F3A114E005CF452 /* File_test.swift */; };
 		108D1CC71F2569E100023F2D /* CreateProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D1CC61F2569E100023F2D /* CreateProfileController.swift */; };
 		108D1CC91F256AED00023F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108D1CC81F256AED00023F2D /* ViewController.swift */; };
 		10B2ABCB1F2553BA00847AA6 /* StartPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B2ABCA1F2553BA00847AA6 /* StartPage.storyboard */; };
@@ -86,6 +87,7 @@
 		01FBE2091EC3C603008903C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Resources/Assets.xcassets; sourceTree = "<group>"; };
 		01FBE20D1EC3CC18008903C1 /* TrackingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
 		0A259E611EBFBE950050AC0F /* Tracking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Tracking.storyboard; path = Resources/Tracking.storyboard; sourceTree = "<group>"; };
+		107695B91F3A114E005CF452 /* File_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File_test.swift; sourceTree = "<group>"; };
 		108D1CC61F2569E100023F2D /* CreateProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileController.swift; sourceTree = "<group>"; };
 		108D1CC81F256AED00023F2D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10B2ABCA1F2553BA00847AA6 /* StartPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StartPage.storyboard; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 		491EC4F91DE421940077BF82 = {
 			isa = PBXGroup;
 			children = (
+				107695B91F3A114E005CF452 /* File_test.swift */,
 				0137F14A1EA2778100FCA949 /* MRNBike */,
 				491EC5031DE421940077BF82 /* Products */,
 				491EC5191DE441430077BF82 /* Frameworks */,
@@ -456,6 +459,7 @@
 				01FBE20E1EC3CC18008903C1 /* TrackingViewController.swift in Sources */,
 				0137F16F1EA2778100FCA949 /* StorageHelper.swift in Sources */,
 				10B9D4E71EC614A000CC7027 /* LocalizationExtensions.swift in Sources */,
+				107695BA1F3A114E005CF452 /* File_test.swift in Sources */,
 				108D1CC91F256AED00023F2D /* ViewController.swift in Sources */,
 				0137F1711EA2778100FCA949 /* User.swift in Sources */,
 				10B9D4E51EC614A000CC7027 /* CornerView.swift in Sources */,
