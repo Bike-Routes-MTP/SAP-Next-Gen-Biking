@@ -1,4 +1,10 @@
-
+//
+//  PinAnnotation.swift
+//  Next Gen Biking
+//
+//  Created by Marc Bormeth on 06.12.16.
+//  Copyright © 2016 Marc Bormeth. All rights reserved.
+//
 
 import UIKit
 import MapKit

@@ -1,4 +1,10 @@
-
+//
+//  gpsModel.swift
+//  Next Gen Biking
+//
+//  Created by Marc Bormeth on 23.11.16.
+//  Copyright © 2016 Marc Bormeth. All rights reserved.
+//
 import UIKit
 import MapKit
 
