@@ -1,5 +1,7 @@
+
 .DS_Store
 *.xcuserstate
+src/xcode/MRNBike/SupportingFiles/Credentials.json
 
 src/xcode/MRNBike.xcodeproj/xcuserdata/huyen.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
 
