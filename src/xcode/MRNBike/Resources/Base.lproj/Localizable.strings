@@ -117,8 +117,11 @@
 "userUpdatedDialogTitle"="Profile Updated";
 "userUpdatedDialogMsg"="Profile was successfully updated!";
 
-"noFriendsDialogTitle"="404 - Friends not found";
+"noFriendsDialogTitle"="No friends";
 "noFriendsDialogMsg"="Please add friends to you list!";
+
+"noGroupsDialogTitle"="No groups";
+"noGroupsDialogMsg"="Create your own group!";
 
 
 //Social Scene

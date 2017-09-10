@@ -1,10 +1,10 @@
 import UIKit
 
-class FriendTableViewCell: UITableViewCell {
+class GroupTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var friendImage: UIImageView!
-    @IBOutlet weak var firstnameLabel: UILabel!
-    @IBOutlet weak var lastnameLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var timeLocationLabel: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
