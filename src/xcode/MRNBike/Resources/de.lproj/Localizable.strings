@@ -119,7 +119,7 @@
 "userUpdatedDialogTitle"="Profil aktualisiert";
 "userUpdatedDialogMsg"="Profil wurde erfolgreich aktualisiert.";
 
-"noFriendsDialogTitle"="404 - Freunde nicht gefunden";
+"noFriendsDialogTitle"="Keine Freunde gefunden";
 "noFriendsDialogMsg"="Bitte füge Freunde hinzu!";
 
 "addedSuccessfullyTitle"="Success";
@@ -128,6 +128,8 @@
 "incorrectEmailTitle"="Incorrect Email";
 "incorrectEmailMsg"="User's email is incorrect, please try again.";
 
+"noGroupsDialogTitle"="Keine Gruppen gefunden";
+"noGroupsDialogMsg"="Erstelle deine eigene Gruppe!";
 
 //Social Scene
 "socialFriendsTitle"="Freunde & Gruppen";

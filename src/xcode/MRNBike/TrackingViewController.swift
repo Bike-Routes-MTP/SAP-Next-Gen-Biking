@@ -158,7 +158,6 @@ class TrackingViewController: UIViewController {
     //Upload route to backend (Hana)
     @IBAction func saveRouteButton(_ sender: UIButton) {
         
-        //TODO: Check for connection -> what if there is bad connection?
         let currentStat = [
             "distance": (round(100*(metersDistance / 1000))/100),
             "calories": Double(self.burgersLabel.text!)! * 253.0
@@ -207,6 +206,7 @@ class TrackingViewController: UIViewController {
                             case 200: //User successfully updated
                                 KeychainService.saveIDs(IDs: keys!)
                                 StorageHelper.clearCollectedGPS()
+                                StorageHelper.clearStats()
                                 
                                 self.reportLocation.isHidden = false
                                 self.SaveRouteButton.isHidden = true
