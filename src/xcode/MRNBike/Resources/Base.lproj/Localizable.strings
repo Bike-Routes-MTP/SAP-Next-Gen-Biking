@@ -120,14 +120,20 @@
 "noFriendsDialogTitle"="No friends";
 "noFriendsDialogMsg"="Please add friends to you list!";
 
+"addedSuccessfullyTitle"="Success";
+"addedSuccessfulyMsg"="Friend has been added successfully.";
+
+"incorrectEmailTitle"="Incorrect Email";
+"incorrectEmailMsg"="User's email is incorrect, please try again.";
+
 "noGroupsDialogTitle"="No groups";
 "noGroupsDialogMsg"="Create your own group!";
-
 
 //Social Scene
 "socialFriendsTitle"="Social";
 "frindsTabBarItem"="FRIENDS";
 "groupsTabBarItem"="GROUPS";
+
 
 
 
