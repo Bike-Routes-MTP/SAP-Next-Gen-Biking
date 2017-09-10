@@ -7,7 +7,6 @@ class GroupListViewController: UIViewController, UITableViewDelegate, UITableVie
     
     @IBOutlet weak var groupsTableView: UITableView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
